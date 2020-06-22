@@ -1,4 +1,4 @@
-FROM ulm0/gitlab:12.10.0
+FROM ulm0/gitlab:13.0.6
 
 COPY wrapper /assets/wrapper
 RUN chmod +x /assets/wrapper
