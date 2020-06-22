@@ -111,8 +111,8 @@ mkdir -p /var/log/gitlab/reconfigure
 echo "Starting services..."
 GITLAB_OMNIBUS_CONFIG= /opt/gitlab/embedded/bin/runsvdir-start &
 
-echo "Sleeping for 120 seconds"
-sleep 120
+echo "Sleeping for 240 seconds"
+sleep 240
 
 echo "Configuring GitLab..."
 gitlab-ctl reconfigure
