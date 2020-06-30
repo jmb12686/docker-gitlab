@@ -1,4 +1,4 @@
-FROM ulm0/gitlab:13.0.6
+FROM ulm0/gitlab:13.1.0
 
 # Overwrite chef cookbook to permit extra time for postgres to startup
 COPY cookbooks/postgresql/resources/user.rb /opt/gitlab/embedded/cookbooks/postgresql/resources/user.rb
